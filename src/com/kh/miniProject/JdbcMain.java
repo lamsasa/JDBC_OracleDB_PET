@@ -12,6 +12,7 @@ public class JdbcMain {
         MemberDAO dao = new MemberDAO();
         while(true) {
             System.out.println("[고양이 집사 커뮤니티 test]");
+            System.out.println("test-dh");
             System.out.println("메뉴를 선택하세요.");
             System.out.print("[1]전체 회원정보 조회 [2] 특정 아이디 회원정보 [3] 종료 : ");
             int sel = sc.nextInt();
